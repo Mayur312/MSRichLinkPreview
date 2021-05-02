@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.platforms = {
       "ios": "12.1"
   }
-  s.source_files = 'MSRichLinkPreview/Classes/**/*'
+  s.source_files = 'Source/**/*'
   
   # s.resource_bundles = {
   #   'MSRichLinkPreview' => ['MSRichLinkPreview/Assets/*.png']
