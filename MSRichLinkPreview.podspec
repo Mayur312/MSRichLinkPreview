@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mayur312' => 'mayurshirsale0312@gmail.com' }
   s.source           = { :git => 'https://github.com/Mayur312/MSRichLinkPreview.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://linkedin.com/in/mayur312', 'https://twitter.com/mayur0312'
+  s.social_media_url = 'https://twitter.com/mayur0312'
 
   s.ios.deployment_target = '12.1'
 
