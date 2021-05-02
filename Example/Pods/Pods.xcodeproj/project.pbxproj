@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0281AAD552EDA70B2C8AA82005800469 /* MSRichLinkPreview-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A9225198749C2F5EBFC01B0055C45E /* MSRichLinkPreview-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1829D6FD263F108A00181321 /* MSRichLinkPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829D6FC263F108A00181321 /* MSRichLinkPreview.swift */; };
+		1829D702263F121E00181321 /* MSLinkMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829D701263F121E00181321 /* MSLinkMetaData.swift */; };
 		2E83DC977BC14C6DFA535477718C57D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		304B478259A170ED16FBA7075367E429 /* Pods-MSRichLinkPreview_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 665EAA8895FC23B7CEB12C15B612E4D1 /* Pods-MSRichLinkPreview_Tests-dummy.m */; };
 		32C661B4FCED7FDABB6743BC4D44C46A /* Pods-MSRichLinkPreview_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41046185EF1C0D089E633E26C8D44715 /* Pods-MSRichLinkPreview_Example-dummy.m */; };
@@ -16,7 +18,6 @@
 		79E3C0B9CD34512492A7B5329EEA65F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7A53CFBB6C4CDA94ABC9980C48FC3379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9C89683AFA3EF7F22F5137725D9F776A /* MSRichLinkPreview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AC1BDEA49602B1401B60AE0CAE3E16 /* MSRichLinkPreview-dummy.m */; };
-		B7CFE1606A052AA8F02FC9F34C0F8547 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BC3DB406360450DF1CAFEA3547A41 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +41,10 @@
 		03A9225198749C2F5EBFC01B0055C45E /* MSRichLinkPreview-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSRichLinkPreview-umbrella.h"; sourceTree = "<group>"; };
 		0608665B77092E0B7A8A397FDB07E6FF /* Pods-MSRichLinkPreview_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSRichLinkPreview_Tests.modulemap"; sourceTree = "<group>"; };
 		0B454446FD6B0428A64D91D7340CA3FD /* Pods-MSRichLinkPreview_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSRichLinkPreview_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		15BAC0297CAB1CDC8912EB56D47C9276 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		182E5E357831636AEF418E82102DF52B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		353BC3DB406360450DF1CAFEA3547A41 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MSRichLinkPreview/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		15BAC0297CAB1CDC8912EB56D47C9276 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1829D6FC263F108A00181321 /* MSRichLinkPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSRichLinkPreview.swift; sourceTree = "<group>"; };
+		1829D701263F121E00181321 /* MSLinkMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSLinkMetaData.swift; sourceTree = "<group>"; };
+		182E5E357831636AEF418E82102DF52B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		377E1604D09EFA49202B71D6E287F198 /* Pods-MSRichLinkPreview_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSRichLinkPreview_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		41046185EF1C0D089E633E26C8D44715 /* Pods-MSRichLinkPreview_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSRichLinkPreview_Example-dummy.m"; sourceTree = "<group>"; };
 		445A44668B0A724E91EC92C301CF650F /* Pods-MSRichLinkPreview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSRichLinkPreview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,21 +56,21 @@
 		7C9B752002C3CBD747E8868B0629397F /* MSRichLinkPreview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSRichLinkPreview-prefix.pch"; sourceTree = "<group>"; };
 		7F139A323D19585A88CA7EEF95671A3A /* MSRichLinkPreview-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSRichLinkPreview-Info.plist"; sourceTree = "<group>"; };
 		8F36053337FA077C9A08343669CAFFC3 /* Pods-MSRichLinkPreview_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSRichLinkPreview_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9CC2E33647C442518A9F690BB1FF1D67 /* Pods_MSRichLinkPreview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSRichLinkPreview_Example.framework; path = "Pods-MSRichLinkPreview_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CC2E33647C442518A9F690BB1FF1D67 /* Pods_MSRichLinkPreview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSRichLinkPreview_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B096CB61B9D2FC60AA1D4B1D9DB6B48D /* Pods-MSRichLinkPreview_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSRichLinkPreview_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BA93662A050BC2559290FF1EFAE76574 /* Pods-MSRichLinkPreview_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSRichLinkPreview_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BC821086F32D1515538E7DDC7C23BDB0 /* MSRichLinkPreview.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSRichLinkPreview.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC821086F32D1515538E7DDC7C23BDB0 /* MSRichLinkPreview.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MSRichLinkPreview.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BFF6296A7C26BF098491F98F2230D51C /* Pods-MSRichLinkPreview_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSRichLinkPreview_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C698FE07012A3894063E692FADB4E9F5 /* Pods-MSRichLinkPreview_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSRichLinkPreview_Example.modulemap"; sourceTree = "<group>"; };
-		C71FF999AEFCE83AA6C3FE149028FFA7 /* MSRichLinkPreview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSRichLinkPreview.framework; path = MSRichLinkPreview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71FF999AEFCE83AA6C3FE149028FFA7 /* MSRichLinkPreview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSRichLinkPreview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B3A5DC801C04D607AB2D7E518E2B01 /* Pods-MSRichLinkPreview_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSRichLinkPreview_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D5D5F28D8DA47AC4B41A99EA2F11EF51 /* Pods-MSRichLinkPreview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSRichLinkPreview_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DB36917638997A888D4D7600905E8A51 /* Pods-MSRichLinkPreview_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSRichLinkPreview_Example-umbrella.h"; sourceTree = "<group>"; };
 		DBA480FB42CF76F56EA5EACE7A04976A /* Pods-MSRichLinkPreview_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSRichLinkPreview_Example-Info.plist"; sourceTree = "<group>"; };
 		DD07E8ED9E8AD3AC49528CA61FE5E914 /* MSRichLinkPreview.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSRichLinkPreview.modulemap; sourceTree = "<group>"; };
 		E5AC1BDEA49602B1401B60AE0CAE3E16 /* MSRichLinkPreview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSRichLinkPreview-dummy.m"; sourceTree = "<group>"; };
-		E634940E6AC2F93C7CB128557BB31620 /* Pods_MSRichLinkPreview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSRichLinkPreview_Tests.framework; path = "Pods-MSRichLinkPreview_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E634940E6AC2F93C7CB128557BB31620 /* Pods_MSRichLinkPreview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSRichLinkPreview_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C172B829AD960D9F2AC27D547CAF1C /* Pods-MSRichLinkPreview_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSRichLinkPreview_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,15 @@
 				D9071E8F54943300EFB2189CE66EC7F0 /* MSRichLinkPreview */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1829D6D6263F100E00181321 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1829D6FC263F108A00181321 /* MSRichLinkPreview.swift */,
+				1829D701263F121E00181321 /* MSLinkMetaData.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		34727E1D83A2A3B7771B5AEEAD38AC85 /* Pods-MSRichLinkPreview_Tests */ = {
@@ -205,7 +216,7 @@
 		D9071E8F54943300EFB2189CE66EC7F0 /* MSRichLinkPreview */ = {
 			isa = PBXGroup;
 			children = (
-				353BC3DB406360450DF1CAFEA3547A41 /* ReplaceMe.swift */,
+				1829D6D6263F100E00181321 /* Source */,
 				EEC44AC003E4DF6F33FACBBCBD7901BE /* Pod */,
 				9D12D53F02B6CD2AAF098FE1D2A6BC57 /* Support Files */,
 			);
@@ -316,7 +327,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					474739D637163BB699D08C95D158A951 = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,8 +383,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1829D702263F121E00181321 /* MSLinkMetaData.swift in Sources */,
+				1829D6FD263F108A00181321 /* MSRichLinkPreview.swift in Sources */,
 				9C89683AFA3EF7F22F5137725D9F776A /* MSRichLinkPreview-dummy.m in Sources */,
-				B7CFE1606A052AA8F02FC9F34C0F8547 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +438,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MSRichLinkPreview_Example/Pods-MSRichLinkPreview_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MSRichLinkPreview_Example/Pods-MSRichLinkPreview_Example.modulemap";
@@ -491,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -519,7 +536,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MSRichLinkPreview_Tests/Pods-MSRichLinkPreview_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MSRichLinkPreview_Tests/Pods-MSRichLinkPreview_Tests.modulemap";
@@ -541,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53022E22AC8B8E33ACD996652465CEA1 /* MSRichLinkPreview.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -552,7 +570,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MSRichLinkPreview/MSRichLinkPreview-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MSRichLinkPreview/MSRichLinkPreview-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MSRichLinkPreview/MSRichLinkPreview.modulemap";
 				PRODUCT_MODULE_NAME = MSRichLinkPreview;
@@ -560,7 +578,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -582,7 +601,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MSRichLinkPreview_Example/Pods-MSRichLinkPreview_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MSRichLinkPreview_Example/Pods-MSRichLinkPreview_Example.modulemap";
@@ -615,7 +634,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MSRichLinkPreview_Tests/Pods-MSRichLinkPreview_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MSRichLinkPreview_Tests/Pods-MSRichLinkPreview_Tests.modulemap";
@@ -682,13 +701,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -698,6 +716,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F6B4FE7D8615B8A62123B192CCAF6E3 /* MSRichLinkPreview.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -709,7 +728,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MSRichLinkPreview/MSRichLinkPreview-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MSRichLinkPreview/MSRichLinkPreview-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MSRichLinkPreview/MSRichLinkPreview.modulemap";
 				PRODUCT_MODULE_NAME = MSRichLinkPreview;
@@ -717,7 +736,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
