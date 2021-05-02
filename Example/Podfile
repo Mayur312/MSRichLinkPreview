@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MSRichLinkPreview_Example' do
+  pod 'MSRichLinkPreview', :path => '../'
+
+  target 'MSRichLinkPreview_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
