@@ -1,0 +1,16 @@
+PODS:
+  - MSRichLinkPreview (0.1.0)
+
+DEPENDENCIES:
+  - MSRichLinkPreview (from `../`)
+
+EXTERNAL SOURCES:
+  MSRichLinkPreview:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSRichLinkPreview: 7d1c1b4d921297f65fdcbda225cb2c4333e40bb5
+
+PODFILE CHECKSUM: 28b3319cfeddf3a5b2703e71b3b625689705162b
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,22 @@
+{
+  "name": "MSRichLinkPreview",
+  "version": "0.1.0",
+  "summary": "A short description of MSRichLinkPreview.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mayur312/MSRichLinkPreview",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mayur312": "mayur@avdevs.com"
+  },
+  "source": {
+    "git": "https://github.com/Mayur312/MSRichLinkPreview.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MSRichLinkPreview/Classes/**/*"
+}

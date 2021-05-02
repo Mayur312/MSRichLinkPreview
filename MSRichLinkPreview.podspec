@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Mayur312/MSRichLinkPreview'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Mayur312' => 'mayur@avdevs.com' }
+  s.author           = { 'Mayur312' => 'mayurshirsale0312@gmail.com' }
   s.source           = { :git => 'https://github.com/Mayur312/MSRichLinkPreview.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

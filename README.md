@@ -22,7 +22,7 @@ pod 'MSRichLinkPreview'
 
 ## Author
 
-Mayur312, mayur@avdevs.com
+Mayur312, mayurshirsale0312@gmail.com
 
 ## License
 

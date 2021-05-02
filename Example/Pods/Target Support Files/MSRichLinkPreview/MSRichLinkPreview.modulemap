@@ -1,0 +1,6 @@
+framework module MSRichLinkPreview {
+  umbrella header "MSRichLinkPreview-umbrella.h"
+
+  export *
+  module * { export * }
+}
