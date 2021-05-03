@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct MSLinkMetaData {
-    var title: String = ""
-    var description: String = ""
-    var siteName: String = ""
-    var url: String = ""
-    var imageUrl: String = ""
-    var mediaType: String = ""
-    var favIcon: String = ""
+public struct MSLinkMetaData {
+    public var title: String = ""
+    public var description: String = ""
+    public var siteName: String = ""
+    public var url: String = ""
+    public var imageUrl: String = ""
+    public var mediaType: String = ""
+    public var favIcon: String = ""
 }
