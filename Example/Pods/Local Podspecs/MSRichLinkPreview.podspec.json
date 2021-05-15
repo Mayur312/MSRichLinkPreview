@@ -1,22 +1,30 @@
 {
   "name": "MSRichLinkPreview",
-  "version": "0.1.0",
-  "summary": "A short description of MSRichLinkPreview.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "MSRichLinkPreview will retrieve metadata from the website.",
+  "description": "'MSRichLinkPreview will retrieve metadata from the website.'",
   "homepage": "https://github.com/Mayur312/MSRichLinkPreview",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Mayur312": "mayur@avdevs.com"
+    "Mayur312": "mayurshirsale0312@gmail.com"
   },
   "source": {
     "git": "https://github.com/Mayur312/MSRichLinkPreview.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
+  "social_media_url": "https://twitter.com/mayur0312",
   "platforms": {
-    "ios": "9.0"
+    "ios": "12.1"
   },
-  "source_files": "MSRichLinkPreview/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Source/**/*",
+  "dependencies": {
+    "Kanna": [
+      "5.2.4"
+    ]
+  },
+  "swift_version": "5.0"
 }
