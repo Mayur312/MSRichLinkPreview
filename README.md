@@ -1,3 +1,5 @@
+![MSRichLinkPreview](https://github.com/Mayur312/MSRichLinkPreview/blob/master/Example/MSRichLinkPreview/Images.xcassets/images/img_logo_png.imageset/logo.png)
+
 # MSRichLinkPreview
 
 [![CI Status](https://img.shields.io/travis/Mayur312/MSRichLinkPreview.svg?style=flat)](https://travis-ci.org/Mayur312/MSRichLinkPreview)
@@ -9,7 +11,14 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Screen Shots
+![MSRichLinkPreview](https://github.com/Mayur312/MSRichLinkPreview/blob/master/Example/MSRichLinkPreview/Images.xcassets/images/screen_shot_1.imageset/screen_shot_1.png)
+
 ## Requirements
+
+- iOS 12.1+
+- Xcode 12.4+
+- Swift 5.0+
 
 ## Installation
 
